@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic Pollution</title>
+    <meta name="description" content="Learn about the impacts of plastic pollution, its causes, effects, and the solutions we can adopt to save our oceans.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-water"></i> Plastic Pollution</a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#causes">Causes</a></li>
+                    <li><a href="#effects">Effects</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#statistics">Stats</a></li>
+                    <li><a href="#contact" class="btn-primary-small">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">A Plastic-Free Ocean Begins with You.</h1>
+            <p class="fade-in delay-1">Every minute, a garbage truck's worth of plastic enters our oceans. It's time to turn the tide.</p>
+            <div class="hero-buttons fade-in delay-2">
+                <a href="#solutions" class="btn-primary">Discover Solutions</a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Join The Movement</h2>
+                <div class="underline"></div>
+                <p class="subtitle">Sign up for our newsletter or reach out to partner with us.</p>
+            </div>
+            <div class="contact-box glass-card">
+                <form id="contact-form" class="form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required placeholder="How do you want to help?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Send Message</button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>The Plastic Crisis</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text slide-in-left">
+                    <p>Plastic pollution has become one of the most pressing environmental issues, as rapidly increasing production of disposable plastic products overwhelms our world's ability to deal with them.</p>
+                    <p>It impacts our health, wildlife, and the climate. Plastic waste is now found in the most remote areas of the planet. It kills millions of marine animals every year from entanglement and starvation.</p>
+                </div>
+                <div class="about-cards slide-in-right">
+                    <div class="card glass-card">
+                        <i class="fa-solid fa-fish-fins"></i>
+                        <h3>Marine Life at Risk</h3>
+                        <ul style="padding-left: 20px; text-align: left; margin-top: 10px;">
+                            <li>Over 800 species are known to be affected by marine litter.</li>
+                            <li>Plastic ingestion causes malnutrition and internal injuries in seabirds and turtles.</li>
+                            <li>Ghost fishing gear and nets entangle and drown countless marine mammals.</li>
+                        </ul>
+                    </div>
+                    <div class="card glass-card">
+                        <i class="fa-solid fa-microscope"></i>
+                        <h3>Microplastics</h3>
+                        <ul style="padding-left: 20px; text-align: left; margin-top: 10px;">
+                            <li>Tiny plastic fragments are now found in our food, water, and air.</li>
+                            <li>They absorb and concentrate toxic chemicals from the surrounding seawater.</li>
+                            <li>Microplastics can cross biological barriers and accumulate in human organs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Causes Section -->
+    <section id="causes" class="causes section-padding bg-light">
+        <div class="container causes-grid">
+            <div class="causes-image slide-in-left">
+                <img src="assets/images/causes.png" alt="Causes of Plastic Pollution">
+                <div class="decoration-box"></div>
+            </div>
+            <div class="causes-content slide-in-right">
+                <div class="section-title">
+                    <h2>What Causes Plastic Pollution?</h2>
+                    <div class="underline-left"></div>
+                </div>
+                <ul class="icon-list">
+                    <li>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div>
+                            <h4>Single-Use Plastics</h4>
+                            <p>Items meant to be used just once constitute the vast majority of plastic waste.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-industry"></i>
+                        <div>
+                            <h4>Industrial Waste</h4>
+                            <p>Significant amounts of plastic waste originate from manufacturing and industrial fishing.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-trash"></i>
+                        <div>
+                            <h4>Poor Waste Management</h4>
+                            <p>Inadequate garbage disposal infrastructure leads to direct leakage into the environment.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Effects Section -->
+    <section id="effects" class="effects section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>The Devastating Effects</h2>
+                <div class="underline"></div>
+                <p class="subtitle">The consequences of plastic pollution are far-reaching.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card effect-card hover-up">
+                    <div class="icon-wrapper"><i class="fa-solid fa-water"></i></div>
+                    <h3>Ocean Acidification</h3>
+                    <p>As plastics degrade, they release chemicals that alter the ocean's chemistry, severely affecting marine ecosystems.</p>
+                </div>
+                <div class="card effect-card hover-up delay-1">
+                    <div class="icon-wrapper"><i class="fa-solid fa-feather"></i></div>
+                    <h3>Wildlife Fatalities</h3>
+                    <p>Turtles, seabirds, and whales mistake plastic for food, causing malnutrition, intestinal blockage, and death.</p>
+                </div>
+                <div class="card effect-card hover-up delay-2">
+                    <div class="icon-wrapper"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Human Health</h3>
+                    <p>Microplastics enter the food chain, carrying toxic chemicals that ultimately end up on our plates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics section-padding">
+        <div class="container">
+            <div class="stats-wrapper glass-card">
+                <div class="stat-item">
+                    <h2 class="counter" data-target="8000000">0</h2>
+                    <p>Tons enter oceans yearly</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="1000000">0</h2>
+                    <p>Seabirds killed annually</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="450">0</h2>
+                    <p>Years for plastic to degrade</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="50">0</h2>
+                    <p>% are single-use plastics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions section-padding bg-light">
+        <div class="container solutions-grid">
+            <div class="solutions-content slide-in-left">
+                <div class="section-title">
+                    <h2>Be Part of the Solution</h2>
+                    <div class="underline-left"></div>
+                </div>
+                <p>We can all contribute to stopping plastic pollution. Small changes in our daily habits make a massive difference globally.</p>
+                <div class="accordion">
+                    <div class="accordion-item active">
+                        <div class="accordion-header">
+                            <h4><i class="fa-solid fa-recycle"></i> Reduce, Reuse, Recycle</h4>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-body">
+                            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                                <li><strong>Reduce:</strong> Prioritize choosing products with minimal or biodegradable packaging to cut down overall consumption.</li>
+                                <li><strong>Reuse:</strong> Switch to high-quality reusable bags, water bottles, coffee cups, and food containers.</li>
+                                <li><strong>Recycle:</strong> When using disposable items, properly wash and sort them according to local guidelines.</li>
+                                <li><strong>Impact:</strong> These simple habits can help a household eliminate hundreds of pounds of plastic waste annually.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4><i class="fa-solid fa-hand-holding-hand"></i> Support Cleanups</h4>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-body">
+                            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                                <li><strong>Active Participation:</strong> Join beach, park, or river initiatives to physically remove waste from natural ecosystems.</li>
+                                <li><strong>Protect Wildlife:</strong> Grassroots cleanups directly protect local wildlife from immediate entanglement dangers.</li>
+                                <li><strong>Gather Data:</strong> Help researchers gather critical data on the pervasive types of plastic pollution in your area.</li>
+                                <li><strong>Lead by Example:</strong> If no local group exists, take the initiative to organize your own community cleanup event.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4><i class="fa-solid fa-scale-balanced"></i> Advocate for Policies</h4>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-body">
+                            <ul style="padding-left: 20px; margin-bottom: 15px;">
+                                <li><strong>Support Legislation:</strong> Back laws that ban or heavily tax harmful single-use plastics.</li>
+                                <li><strong>Corporate Accountability:</strong> Favor policies holding corporations responsible for packaging waste through EPR programs.</li>
+                                <li><strong>Use Your Voice:</strong> Actively sign petitions and write to local representatives demanding stronger environmental protections.</li>
+                                <li><strong>Vote:</strong> Support eco-conscious leaders who prioritize the systemic fight against plastic pollution.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="solutions-image slide-in-right">
+                <img src="assets/images/solutions.png" alt="Solutions to Plastic Pollution">
+                <div class="decoration-box-right"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h3><i class="fa-solid fa-water"></i> Plastic Pollution</h3>
+                <p>Protecting our oceans from plastic pollution, one step at a time.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Plastic Pollution. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
